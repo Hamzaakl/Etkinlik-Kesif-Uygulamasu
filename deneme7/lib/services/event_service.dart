@@ -5,9 +5,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import '../models/comment_model.dart';
 
 class EventService {
-  static const String apiKey = 'ANSrci0UFCuLMZF3OAU9xWYWp2LD5H9b';
+  static const String apiKey = 'TICKETMASTER-API';
   static const String baseUrl =
-      'https://app.ticketmaster.com/discovery/v2/events.json';
+      'EVENT-URL';
 
   Future<List<Event>> getEvents({
     String? keyword,
